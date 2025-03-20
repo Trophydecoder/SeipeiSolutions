@@ -1,0 +1,232 @@
+.ContainerCarousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/assets/HomeAssets/carouselbg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+.Carousel {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Carousel h1 {
+  color: var(--textprimary);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.Carousel p {
+  color: var(--textsecondary);
+  font-size: 14px;
+  margin-top: -6%;
+  font-family: "Big Shoulders", sans-serif;
+}
+#GetinTouch {
+  background-color: var(--textprimary);
+  border: none;
+  color: var(--main);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+
+
+
+
+
+
+
+.ContainerBranding {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -6%;
+  justify-content: center;
+  align-items: center;
+}
+.Branding {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  height: 100vh;
+}
+.boxes1 {
+  background-image: url("/assets/HomeAssets/planning.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  text-align: center;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.boxes1 p {
+  display: none;
+}
+.boxes1 h1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--textprimary);
+  font-size: 15px;
+  padding: 2px 61px;
+
+
+}
+
+.boxes2 {
+  background-image: url("/assets/HomeAssets/idea.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boxes2 p {
+  display: none;
+}
+.boxes2 h1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--textprimary);
+  font-size: 13px;
+  padding: 2px 83px;
+
+
+}
+
+.boxes3 {
+  background-image: url("/assets/HomeAssets/consultant.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.boxes3 p {
+  display: none;
+}
+.boxes3 h1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--textprimary);
+  font-size: 13px;
+  padding: 2px 73px;
+
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+  .ContainerCarousel {
+    height: 90vh;
+    justify-content: center;
+  }
+  .Carousel {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+  }
+  .Carousel h1 {
+    font-size: 70px;
+  }
+  .Carousel p {
+    padding-top: 1%;
+  }
+  #GetinTouch {
+    padding-top: 2%;
+  }
+
+
+
+
+
+
+  .ContainerBranding {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -4%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Branding {
+    width:67%;
+    display: flex;
+    flex-direction: row;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1%;
+    height: 45vh;
+  }
+  .boxes1 {
+    width: 30%;
+    height: 35vh;
+  }
+  .boxes1 p {
+    display: none;
+  }
+  .boxes1 h1 {
+    font-size: 17px;
+  }
+
+  .boxes2 {
+    width: 30%;
+    height: 35vh;
+  }
+
+  .boxes2 p {
+    display: none;
+  }
+  .boxes2 h1 {
+    font-size: 16px;
+  }
+
+  .boxes3 {
+    width: 30%;
+    height: 35vh;
+  }
+  .boxes3 p {
+    display: none;
+  }
+  .boxes3 h1 {
+    padding: 2px 65px;
+    font-size: 17px;
+  }
+}
