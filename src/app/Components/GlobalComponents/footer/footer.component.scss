@@ -1,0 +1,128 @@
+.footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: start;
+    width: 100%;
+  }
+  
+  .footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-wrap: nowrap; 
+ }
+  
+  .footer-logo {
+    width: 10%;
+    display:none;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+  }
+  
+  .footer-links {
+    width: 90%;
+    padding: 10px;
+  }
+  
+  .footer-links h3 {
+    margin-top: 0;
+    color: #fff;
+    font-family: "Big Shoulders", sans-serif;
+  }
+  
+  .footer-links ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-top: 5%;
+
+  }
+  
+  .footer-link {
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    color:var(--textthird)
+  }
+  
+  .footer-link:hover {
+    color:white;
+  }
+  
+  .footer-social {
+    width: 20%;
+    padding: 20px;
+
+  }
+  
+  .footer-social h3 {
+    margin-top: 0;
+    color: #fff;
+    font-family: "Big Shoulders", sans-serif;
+  }
+  
+  .footer-social-link {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-social-link:hover {
+    color:#ffffff;;
+  }
+  
+  .footer-copyright {
+    background-color:var(--textsecondary);
+    color:var(--main);
+    width: 100%;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid  #000000;
+    font-family: "Big Shoulders", sans-serif;
+  }
+
+
+
+  @media screen and (min-width: 1024px){
+    .footer {
+        text-align:start;
+        width: 100%;
+        height: 40vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-wrap: nowrap;
+
+      }
+       
+  .footer-links {
+    width: 10%;
+    padding: 10px;
+  }
+      .footer-logo {
+        display: flex;
+        width: 10%;
+        padding-left: 8%;
+      }
+        .footer-copyright {
+      font-size: 10px;
+      }
+      
+  }
+  
