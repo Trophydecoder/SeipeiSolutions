@@ -1,0 +1,35 @@
+.ContainerClients{
+    width: 100%;
+    display: flex;
+    background-color:var(--textsecondary);
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.Clients{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+#FVPlogo{
+    padding-top: 3%;
+    width: 50%;
+    filter: grayscale(100%);
+}
+
+@media screen and (min-width: 1024px) {
+#FVPlogo{
+    padding-top: 0%;
+    width: 20%;
+    filter: grayscale(100%);
+}
+.Clients{
+    margin-top: 2%;
+    height: 8vh;
+}
+.ContainerClients{
+    margin-top: 4%;
+}
+}

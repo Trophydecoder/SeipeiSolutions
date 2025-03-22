@@ -1,0 +1,157 @@
+.ContainerProject{
+    width:100%;
+    // background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Project{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.Project p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--textsecondary);
+}
+.Project h1{
+    margin-top: -3%;
+    color: var(--textthird);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.Project h2{
+    margin-top: -4%;
+    color: var(--textthird);
+    font-family: "Big Shoulders", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+#contact{
+    display: none;
+  }
+.Contact{
+width: 100%;
+
+
+}
+  input[type=text], select, textarea {
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 9px;
+    font-family: "Big Shoulders", sans-serif;
+    color: var(--textthird);
+    
+  }
+  
+  input[type=submit] {
+    background-color:var(--main);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    width: 30%;
+  }
+  
+  input[type=submit]:hover {
+    background-color:var(--textsecondary);
+    color: var(--main);
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 7px;
+  }
+  .row{
+    width:100%;
+    // background-image: url(assets/contactbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+  .column {
+    width: 80%;
+    margin-top: 6px;
+    padding: 20px;
+    border-radius: 9px;
+    font-family: "Big Shoulders", sans-serif;
+    color: var(--textthird);
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (min-width: 1024px) {
+    .Project h1{
+        margin-top: 0%;
+        font-size: 45px;
+    }
+    .Project h2{
+        margin-top: -2%;
+        
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+       }
+    #contact{
+        display: flex;
+        width: 80%;
+        border-radius: 14px;
+      }
+      .Contact{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 0%;
+        padding-top: 0%;
+
+      }
+      .column1 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+         margin-left: -0%;
+      }
+      input[type=text], select, textarea {
+        width:80%;
+        display: flex;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        border-radius: 9px;
+        font-family: "Big Shoulders", sans-serif;
+        color: var(--textthird);
+      }
+      
+  }

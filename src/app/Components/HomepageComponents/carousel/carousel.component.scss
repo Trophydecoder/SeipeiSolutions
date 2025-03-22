@@ -82,16 +82,29 @@
   font-family: "Big Shoulders", sans-serif;
   font-weight: 400;
   font-style: normal;
+  position: relative;
 }
-.boxes1 p {
+.hidden-text {
   display: none;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Optional: Adds background for visibility */
+  color: white;
+  text-align: center;
 }
+
+.boxes1 h1:hover + .hidden-text {
+  display: block;
+  flex-direction: column;
+}
+
 .boxes1 h1 {
   background-color: rgba(0, 0, 0, 0.7);
   color: var(--textprimary);
-  font-size: 15px;
-  padding: 2px 61px;
-
+  font-size: 13px;
+  padding: 6px 57px;
+  text-wrap: nowrap;
+  margin-top: 80%;
 
 }
 
@@ -110,17 +123,28 @@
   font-style: normal;
 }
 
-.boxes2 p {
-  display: none;
-}
 .boxes2 h1 {
   background-color: rgba(0, 0, 0, 0.7);
   color: var(--textprimary);
   font-size: 13px;
-  padding: 2px 83px;
-
-
+  padding: 6px 70px;
+  font-size: 13px;
+  text-wrap: nowrap;
+  margin-top: 80%;
 }
+.hidden-text2 {
+  display: none;
+  position: absolute;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.7); 
+  color: white;
+  text-align: center;
+}
+.boxes2 h1:hover + .hidden-text2 {
+  display: block;
+  flex-direction: column;
+}
+
 
 .boxes3 {
   background-image: url("/assets/HomeAssets/consultant.png");
@@ -136,15 +160,18 @@
   font-weight: 400;
   font-style: normal;
 }
-.boxes3 p {
-  display: none;
-}
-.boxes3 h1 {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: var(--textprimary);
-  font-size: 13px;
-  padding: 2px 73px;
 
+.boxes3 h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--textprimary);
+    font-size: 13px;
+    padding: 6px 61px;
+    text-wrap: nowrap;
+    margin-top: 80%;
+}
+.boxes3 h1:hover + .hidden-text2 {
+  display: block;
+  flex-direction: column;
 
 }
 
@@ -199,9 +226,6 @@
     width: 30%;
     height: 35vh;
   }
-  .boxes1 p {
-    display: none;
-  }
   .boxes1 h1 {
     font-size: 17px;
   }
@@ -211,9 +235,7 @@
     height: 35vh;
   }
 
-  .boxes2 p {
-    display: none;
-  }
+  
   .boxes2 h1 {
     font-size: 16px;
   }
@@ -222,11 +244,25 @@
     width: 30%;
     height: 35vh;
   }
-  .boxes3 p {
-    display: none;
-  }
+  
   .boxes3 h1 {
     padding: 2px 65px;
+    font-size: 17px;
+  }
+  .boxes2 h1 {
+    padding: 2px 79px;
+    font-size: 17px;
+  }
+  .hidden-text2 {
+    display: none;
+    position: absolute;
+    width: 19.60%;
+    background: rgba(0, 0, 0, 0.7); 
+    color: white;
+    text-align: center;
+  }
+  .boxes1 h1 {
+    padding: 2px 61px;
     font-size: 17px;
   }
 }
