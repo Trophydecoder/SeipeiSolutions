@@ -1,0 +1,74 @@
+.ContainerCarousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/ServicesAssets/ServicesMobileBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .Carousel {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Carousel h1 {
+    color: var(--textprimary);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  .Carousel p {
+    color: var(--textsecondary);
+    font-size: 14px;
+    margin-top: -6%;
+    font-family: "Big Shoulders", sans-serif;
+  }
+  #GetinTouch {
+
+    background-color: var(--textprimary);
+    border: none;
+    color: var(--main);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 8%;
+    cursor: pointer;
+    border-radius: 9px;
+  }
+
+  
+@media screen and (min-width: 1024px) {
+    .ContainerCarousel {
+        background-image: url("/assets/ServicesAssets/servicesBG.png");
+      height: 85vh;
+      justify-content: center;
+    }
+    .Carousel {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      text-align: end;
+    }
+    .Carousel h1 {
+      font-size: 90px;
+    }
+    .Carousel p {
+      padding-top: -1%;
+      width: 34%;
+      height:7vh;
+    }
+    #GetinTouch {
+      padding-top: 2%;
+      
+    }
+
+}
